@@ -11,3 +11,4 @@ Select a date  from the date picker
 ## Contributing 
 Create a date picker
 
+## License
