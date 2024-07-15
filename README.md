@@ -6,9 +6,10 @@ provides ability to select a date
 Set up the functions and then clean up the display of the project OR focus on functions then front end
 
 ## Usage 
-Select a date  from the date picker
+to be implemented
 
 ## Contributing 
-Create a date picker
+feel free to open an issue or a pull request
 
 ## License
+MIT
