@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<title> Date Picker </title>
+<body>
+    <h1> Please Select a Date </h1>
+    <div class = "datepicker">
+        <input type = "text" [value]="selectedDate | date: 'mm/dd/yyyy'">
+        <button (click) = "toggleCalender()"></button> 
+        <div If = "show_calendar" class = "calendar">
+            <button (click) = "previousMonth()">&lt;</button>
+            
+</body>
+
