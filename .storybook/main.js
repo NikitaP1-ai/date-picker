@@ -1,0 +1,21 @@
+/** @type { import('@storybook/react-vite').StorybookConfig } */
+const config = {
+  stories: [
+    "../stories/**/*.mdx",
+    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../components/date-picker/components/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
+  addons: [
+    "@storybook/addon-onboarding",
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+  ],
+  framework: {
+    name: "@storybook/react-vite",
+    options: {},
+  }, 
+};
+
+export default config;
