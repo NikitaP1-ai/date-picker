@@ -5,8 +5,9 @@ type Prop = {
 export default function DatePicker({defaultDate, labelText}:Prop) {
   return (
     <div> 
-      <label htmlFor="birthday">{labelText}</label>
-      <input type="date" id="birthday" name="birthday" defaultValue = {defaultDate}/>
+      <label htmlFor="Date Picker">{labelText}</label>
+      <input type="date" id="Date Picker" name="Date Picker" defaultValue = {defaultDate}/>
     </div>
   )
 }
+
