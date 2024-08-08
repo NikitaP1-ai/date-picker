@@ -5,6 +5,7 @@ type Prop = {
 }
 
 export default function DatePicker({defaultDate, changeDate, labelText}:Prop) {
+
   const initialDate = defaultDate || new Date().toISOString().split('T')[0];
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -15,6 +16,7 @@ export default function DatePicker({defaultDate, changeDate, labelText}:Prop) {
     <div> 
       <label htmlFor="Date Picker">{labelText}</label>
       <input type="date" id="date-picker" name="Date Picker" defaultValue = {initialDate} onChange={handleChange}/>
+
     </div>
   )
 }
