@@ -1,0 +1,5 @@
+import{R as t}from"./index-RYns6xqu.js";function s({defaultDate:i,changeDate:o,labelText:c}){const d=i||new Date().toISOString().split("T")[0],l=u=>{const p=new Date(u.target.value);o(p)};return t.createElement("div",null,t.createElement("label",{htmlFor:"Date Picker"},c),t.createElement("input",{type:"date",id:"Date Picker",name:"Date Picker",defaultValue:d,onChange:l}))}s.__docgenInfo={description:"",methods:[],displayName:"DatePicker",props:{defaultDate:{required:!0,tsType:{name:"string"},description:""},changeDate:{required:!0,tsType:{name:"signature",type:"function",raw:"(updated: Date) => void",signature:{arguments:[{type:{name:"Date"},name:"updated"}],return:{name:"void"}}},description:""},labelText:{required:!0,tsType:{name:"string"},description:""}}};const g={component:s,tags:["autodocs"],args:{}},e={args:{labelText:"Select Date: "}};var a,r,n;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    labelText: 'Select Date: '
+  }
+}`,...(n=(r=e.parameters)==null?void 0:r.docs)==null?void 0:n.source}}};const D=["Primary"];export{e as Primary,D as __namedExportsOrder,g as default};
