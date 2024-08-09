@@ -15,9 +15,7 @@ export default function DatePicker({defaultDate, changeDate, labelText}:Prop) {
   return (
     <div> 
       <label htmlFor="Date Picker">{labelText}</label>
-      <input type="date" id="date-picker" name="Date Picker" defaultValue = {initialDate} onChange={handleChange}/>
-
+      <input type="date" id="Date Picker" name="Date Picker" defaultValue = {initialDate} onChange={handleChange}/>
     </div>
   )
 }
-
