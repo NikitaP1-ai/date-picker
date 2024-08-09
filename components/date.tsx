@@ -18,4 +18,3 @@ export default function DatePicker({defaultDate, changeDate, labelText}:Prop) {
     </div>
   )
 }
-
